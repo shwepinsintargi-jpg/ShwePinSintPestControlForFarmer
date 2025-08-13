@@ -130,7 +130,7 @@
     ]
   },
   {
-    "keyword": "Stem fly",
+    "keyword": "ပင်စည်ထိုးယင် (Stem fly)",
     "result": [
       "Fipronil",
       "Thiamethoxam",
@@ -140,9 +140,83 @@
     ]
   },
   {
-    "keyword": "Hairy caterpillar",
-    "result": [43dcd9a7-70db-4a1f-b0ae-981daa162054](https://github.com/Ronnie434/30-days-of-React/tree/22142106cb46f717a1259f84227cc90ed7fe50cc/02_Day_Introduction_to_React%2F02_introduction_to_react.md?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "1")[
+    "keyword": "ခူမွှေးရှည်",
+    "result": [
       "Emamectin benzoate",
       "Indoxacarb",
       "Lambda-cyhalothrin",
-      "Cy
+      "Cypermethrin",
+      "Emamectin + Indoxacarb"
+    ]
+  },
+  {
+    "keyword": "ပွင့်ထွေး၊သီးလုံးဖောက်",
+    "result": [
+      "Chlorantraniliprole",
+      "Emamectin benzoate",
+      "Indoxacarb",
+      "Flubendiamide",
+      "Chlorantraniliprole + Emamectin"
+    ]
+  },
+  {
+    "keyword": "ပျပိုး",
+    "result": [
+      "Spinetoram",
+      "Abamectin",
+      "Fipronil",
+      "Thiamethoxam",
+      "Spinetoram + Abamectin"
+    ]
+  },
+  {
+    "keyword": "စပါးအရွက်ဖောက်ကျိုင်း",
+    "result": [
+      "Abamectin",
+      "Emamectin benzoate",
+      "Cypermethrin",
+      "Thiamethoxam",
+      "Abamectin + Cypermethrin"
+    ]
+  },
+  {
+    "keyword": "စပါးပင်စည်ထိုးပိုး / ဆစ်ပိုး",
+    "result": [
+      "Cartap hydrochloride",
+      "Fipronil",
+      "Imidacloprid",
+      "Lambda-cyhalothrin",
+      "Cartap + Fipronil"
+    ]
+  },
+  {
+    "keyword": "စပါးအရွက်ညှာပိုး",
+    "result": [
+      "Thiamethoxam",
+      "Buprofezin",
+      "Imidacloprid",
+      "Acetamiprid",
+      "Thiamethoxam + Buprofezin"
+    ]
+  },
+  {
+    "keyword": "စပါးအဖူးထိုးပိုး",
+    "result": [
+      "Chlorantraniliprole",
+      "Emamectin benzoate",
+      "Lambda-cyhalothrin",
+      "Cartap hydrochloride",
+      "Chlorantraniliprole + Lambda-cyhalothrin"
+    ]
+  },
+  {
+    "keyword": "ခရမ်းသီးလုံးဖောက်၊ခေါင်ညွန့်ပိုး",
+    "result": [
+      "ပရိုပီနို ဖော့",
+      "ကာဘိုဆာဖန်",
+      "အီမာမက်တင် ဘန်ဇိုရိတ်",
+      "လမ်ဘဒါ ဆိုက် ဟေလိုသရင်",
+      "ပန်း ပွင့်ချိန်- ဆိုက်ပါမီသရင်"
+    ]
+  }
+]
