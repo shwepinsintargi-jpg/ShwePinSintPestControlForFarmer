@@ -5,23 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pest & Fungicide Search</title>
   <style>
-    body {
-      font-family: sans-serif;
-      background: #f0f8ff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
+    :root {
+      --bg-light: #f0f8ff;
+      --text-light: #000;
+      --bg-dark: #1e1e1e;
+      --text-dark: #f0f0f0;
+      --card-light: #fff;
+      --card-dark: #2c2c2c;
+      --accent: #4CAF50;
     }
 
-    h2 {
-      margin-bottom: 1em;
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-light);
+      padding-top: 80px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .top-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      z-index: 1000;
+    }
+
+    .search-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
 
     input[type="text"] {
-      width: 60%;
+      width: 60vw;
       max-width: 400px;
       padding: 0.8em;
       font-size: 1em;
@@ -30,25 +53,64 @@
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
 
+    button {
+      padding: 0.6em 1em;
+      font-size: 0.9em;
+      border: none;
+      border-radius: 6px;
+      background-color: var(--accent);
+      color: white;
+      cursor: pointer;
+    }
+
+    #results {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+
     .result {
-      margin-top: 1.5em;
-      width: 60%;
+      width: 90%;
       max-width: 400px;
-      background: #fff;
+      background-color: var(--card-light);
       border: 1px solid #ccc;
       border-radius: 6px;
       padding: 1em;
+      margin-bottom: 1em;
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: background-color 0.3s, color 0.3s;
     }
 
     .result strong {
-      color: #4CAF50;
+      color: var(--accent);
+    }
+
+    body.dark {
+      background-color: var(--bg-dark);
+      color: var(--text-dark);
+    }
+
+    body.dark .result {
+      background-color: var(--card-dark);
+      border-color: #444;
+    }
+
+    body.dark input[type="text"] {
+      background-color: #333;
+      color: #f0f0f0;
+      border-color: #555;
     }
   </style>
 </head>
 <body>
-  <h2>🔍 Search Pest or Fungicide</h2>
-  <input type="text" id="searchInput" placeholder="Type keyword..." oninput="searchData()" />
+  <div class="top-bar">
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="🔍 Type keyword..." oninput="searchData()" />
+      <button onclick="toggleTheme()">🌗</button>
+    </div>
+  </div>
+
   <div id="results"></div>
 
   <script>
@@ -71,6 +133,10 @@
           ${item.result.map(r => `▸ ${r}`).join("<br>")}
         </div>
       `).join("");
+    }
+
+    function toggleTheme() {
+      document.body.classList.toggle("dark");
     }
   </script>
 </body>
