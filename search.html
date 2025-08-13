@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pest & Fungicide Search</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f0f8ff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h2 {
+      margin-bottom: 1em;
+    }
+
+    input[type="text"] {
+      width: 60%;
+      max-width: 400px;
+      padding: 0.8em;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .result {
+      margin-top: 1.5em;
+      width: 60%;
+      max-width: 400px;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 1em;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .result strong {
+      color: #4CAF50;
+    }
+  </style>
+</head>
+<body>
+  <h2>🔍 Search Pest or Fungicide</h2>
+  <input type="text" id="searchInput" placeholder="Type keyword..." oninput="searchData()" />
+  <div id="results"></div>
+
+  <script>
+    let data = [];
+
+    fetch('data.json')
+      .then(response => response.json())
+      .then(json => data = json);
+
+    function searchData() {
+      const query = document.getElementById("searchInput").value.toLowerCase();
+      const matches = data.filter(item =>
+        item.keyword.toLowerCase().includes(query)
+      );
+
+      document.getElementById("results").innerHTML = matches.map(item => `
+        <div class="result">
+          <strong>${item.keyword}</strong><br>
+          Recommended Treatments:<br>
+          ${item.result.map(r => `▸ ${r}`).join("<br>")}
+        </div>
+      `).join("");
+    }
+  </script>
+</body>
+</html>
