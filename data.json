@@ -1,15 +1,18 @@
-{
-  "keyword": "လှေး",
-  "aliases": ["လှေးပိုး", "Thrips", "thrips"],
-  "result": [
-    { "en": "Thiamethoxam", "mm": "သိုင်ယာမီသောင်ဇမ်" },
-    { "en": "Imidacloprid", "mm": "အိုင်မီဒါကလိုပရစ်" },
-    { "en": "Acetamiprid", "mm": "အာစီတာမီပရစ်" },
-    { "en": "Dinotefuran", "mm": "ဒိုင်နိုတီဖျူရန်" },
-    { "en": "Clothianidin", "mm": "ခလိုသီအာနီဒင်" },
-    { "en": "Lambda-Cyhalothrin", "mm": "လမ်ဒါ-ဆိုင်ဟာလိုသရင်" }
-  ],
-  "combos": [
-    { "en": ["Imidacloprid", "Acetamiprid"], "mm": ["အိုင်မီဒါကလိုပရစ်", "အာစီတာမီပရစ်"] }
-  ]
-}
+[
+  {
+    "keyword": "thrips",
+    "result": [
+      "Spinetoram SC 11.7% – Spinosyn",
+      "Emamectin Benzoate SG 5% – Avermectin",
+      "Fipronil SC 5% – Phenylpyrazole"
+    ]
+  },
+  {
+    "keyword": "လှေး",
+    "result": [
+      "စပိုင်နီတိုရမ် SC 11.7% – စပိုင်နိုစင်",
+      "အီမာမက်တင်ဘန်ဇိုအိတ် SG 5% – အာဗာမက်တင်",
+      "ဖီပရိုနီး SC 5% – ဖီနီလ်ပိုင်ရာဇိုး"
+    ]
+  }
+]
