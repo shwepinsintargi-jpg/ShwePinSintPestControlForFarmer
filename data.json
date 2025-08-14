@@ -1,33 +1,26 @@
-[
-  {
-    "pest_mm": "လှေး",
-    "pest_en": "Leafhopper",
-    "keywords": ["လှေး", "လှေးပိုး", "leafhopper"],
-    "active_ingredients": [
-      {
-        "name_en": "Thiamethoxam",
-        "name_mm": "သိုင်ယာမီသောင်ဇမ်"
-      },
-      {
-        "name_en": "Imidacloprid",
-        "name_mm": "အိုင်မီဒါကလိုပရစ်"
-      },
-      {
-        "name_en": "Acetamiprid",
-        "name_mm": "အာစီတာမီပရစ်"
-      },
-      {
-        "name_en": "Dinotefuran",
-        "name_mm": "ဒိုင်နိုတီဖျူရန်"
-      },
-      {
-        "name_en": "Clothianidin",
-        "name_mm": "ခလိုသီအာနီဒင်"
-      },
-      {
-        "name_en": "Lambda-Cyhalothrin",
-        "name_mm": "လမ်ဒါ-ဆိုင်ဟာလိုသရင်"
-      }
-    ]
-  }
-]
+{
+  "လှေး": [
+    "Thiamethoxam – သိုင်ယာမီသောင်ဇမ်",
+    "Imidacloprid – အိုင်မီဒါကလိုပရစ်",
+    "Acetamiprid – အာစီတာမီပရစ်",
+    "Dinotefuran – ဒိုင်နိုတီဖျူရန်",
+    "Clothianidin – ခလိုသီအာနီဒင်",
+    "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်"
+  ],
+  "လှေးပိုး": [
+    "Thiamethoxam – သိုင်ယာမီသောင်ဇမ်",
+    "Imidacloprid – အိုင်မီဒါကလိုပရစ်",
+    "Acetamiprid – အာစီတာမီပရစ်",
+    "Dinotefuran – ဒိုင်နိုတီဖျူရန်",
+    "Clothianidin – ခလိုသီအာနီဒင်",
+    "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်"
+  ],
+  "leafhopper": [
+    "Thiamethoxam – သိုင်ယာမီသောင်ဇမ်",
+    "Imidacloprid – အိုင်မီဒါကလိုပရစ်",
+    "Acetamiprid – အာစီတာမီပရစ်",
+    "Dinotefuran – ဒိုင်နိုတီဖျူရန်",
+    "Clothianidin – ခလိုသီအာနီဒင်",
+    "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်"
+  ]
+}
