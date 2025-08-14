@@ -1,10 +1,23 @@
 [
   {
     "keyword": "thrips",
-    "aliases": ["လှေး", "လှေးပိုး"],
     "result": [
-      { "en": "Spinetoram", "mm": "စပိုင်နီတိုရမ်" },
-      { "en": "Fipronil", "mm": "ဖီပရိုနီး" }
+      "Spinetoram – စပိုင်နီတိုရမ်",
+      "Fipronil – ဖီပရိုနီး"
+    ]
+  },
+  {
+    "keyword": "လှေး",
+    "result": [
+      "Spinetoram – စပိုင်နီတိုရမ်",
+      "Fipronil – ဖီပရိုနီး"
+    ]
+  },
+  {
+    "keyword": "လှေးပိုး",
+    "result": [
+      "Spinetoram – စပိုင်နီတိုရမ်",
+      "Fipronil – ဖီပရိုနီး"
     ]
   }
 ]
