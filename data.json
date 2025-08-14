@@ -3,14 +3,110 @@
     "keyword": "ပင်စည်ထိုးယင်",
     "result": [
       "Chlorpyrifos – ခလော်ပီရီဖော့စ်",
-      "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်"
+      "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်",
+      "Fipronil – ဖီပရိုနီး",
+      "Cartap Hydrochloride – ကာတာပ်",
+      "Thiamethoxam – သိုင်ယာမီသောင်ဇမ်",
+      "Imidacloprid – အိုင်မီဒါကလိုပရစ်"
     ]
   },
   {
     "keyword": "လှေး",
     "result": [
       "Thiamethoxam – သိုင်ယာမီသောင်ဇမ်",
-      "Imidacloprid – အိုင်မီဒါကလိုပရစ်"
+      "Imidacloprid – အိုင်မီဒါကလိုပရစ်",
+      "Acetamiprid – အာစီတာမီပရစ်",
+      "Dinotefuran – ဒိုင်နိုတီဖျူရန်",
+      "Clothianidin – ခလိုသီအာနီဒင်",
+      "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်"
+    ]
+  },
+  {
+    "keyword": "ယင်ဖြူ",
+    "result": [
+      "Imidacloprid – အိုင်မီဒါကလိုပရစ်",
+      "Thiamethoxam – သိုင်ယာမီသောင်ဇမ်",
+      "Acetamiprid – အာစီတာမီပရစ်",
+      "Dinotefuran – ဒိုင်နိုတီဖျူရန်",
+      "Pymetrozine – ပိုင်မက်ထရိုဇင်း",
+      "Buprofezin – ဘျူပရိုဖီဇင်း"
+    ]
+  },
+  {
+    "keyword": "ငမြှောင်တောင်",
+    "result": [
+      "Abamectin – အာဘာမက်တင်",
+      "Spinosad – စပိုင်နိုဆက်",
+      "Emamectin Benzoate – အီမာမက်တင်ဘန်ဇိုအိတ်",
+      "Cyantraniliprole – ဆိုင်ထရန်နီလီပရိုး",
+      "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်",
+      "Chlorfenapyr – ခလော်ဖီနာပီ"
+    ]
+  },
+  {
+    "keyword": "ပွင့်ထွေး",
+    "result": [
+      "Spinosad – စပိုင်နိုဆက်",
+      "Emamectin Benzoate – အီမာမက်တင်ဘန်ဇိုအိတ်",
+      "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်",
+      "Chlorpyrifos – ခလော်ပီရီဖော့စ်",
+      "Indoxacarb – အင်ဒေါ့စကာ့ပ်",
+      "Flubendiamide – ဖလူးဘန်ဒီအမိုင်"
+    ]
+  },
+  {
+    "keyword": "သီးလုံးဖောက်",
+    "result": [
+      "Spinosad – စပိုင်နိုဆက်",
+      "Emamectin Benzoate – အီမာမက်တင်ဘန်ဇိုအိတ်",
+      "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်",
+      "Chlorpyrifos – ခလော်ပီရီဖော့စ်",
+      "Indoxacarb – အင်ဒေါ့စကာ့ပ်",
+      "Flubendiamide – ဖလူးဘန်ဒီအမိုင်"
+    ]
+  },
+  {
+    "keyword": "ရွက်လိပ်",
+    "result": [
+      "Thiamethoxam – သိုင်ယာမီသောင်ဇမ်",
+      "Imidacloprid – အိုင်မီဒါကလိုပရစ်",
+      "Acetamiprid – အာစီတာမီပရစ်",
+      "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်",
+      "Chlorpyrifos – ခလော်ပီရီဖော့စ်",
+      "Cartap Hydrochloride – ကာတာပ်"
+    ]
+  },
+  {
+    "keyword": "ရွက်ကပ်",
+    "result": [
+      "Thiamethoxam – သိုင်ယာမီသောင်ဇမ်",
+      "Imidacloprid – အိုင်မီဒါကလိုပရစ်",
+      "Acetamiprid – အာစီတာမီပရစ်",
+      "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်",
+      "Chlorpyrifos – ခလော်ပီရီဖော့စ်",
+      "Cartap Hydrochloride – ကာတာပ်"
+    ]
+  },
+  {
+    "keyword": "ရွက်ဖောက်ကျိုင်း",
+    "result": [
+      "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်",
+      "Chlorpyrifos – ခလော်ပီရီဖော့စ်",
+      "Emamectin Benzoate – အီမာမက်တင်ဘန်ဇိုအိတ်",
+      "Indoxacarb – အင်ဒေါ့စကာ့ပ်",
+      "Spinosad – စပိုင်နိုဆက်",
+      "Flubendiamide – ဖလူးဘန်ဒီအမိုင်"
+    ]
+  },
+  {
+    "keyword": "ထွာကောင်စိမ်း",
+    "result": [
+      "Chlorpyrifos – ခလော်ပီရီဖော့စ်",
+      "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်",
+      "Fipronil – ဖီပရိုနီး",
+      "Cartap Hydrochloride – ကာတာပ်",
+      "Emamectin Benzoate – အီမာမက်တင်ဘန်ဇိုအိတ်",
+      "Indoxacarb – အင်ဒေါ့စကာ့ပ်"
     ]
   }
 ]
