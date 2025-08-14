@@ -1,18 +1,10 @@
 [
   {
     "keyword": "thrips",
+    "aliases": ["လှေး", "လှေးပိုး"],
     "result": [
-      "Spinetoram SC 11.7% – Spinosyn",
-      "Emamectin Benzoate SG 5% – Avermectin",
-      "Fipronil SC 5% – Phenylpyrazole"
-    ]
-  },
-  {
-    "keyword": "လှေး",
-    "result": [
-      "စပိုင်နီတိုရမ် SC 11.7% – စပိုင်နိုစင်",
-      "အီမာမက်တင်ဘန်ဇိုအိတ် SG 5% – အာဗာမက်တင်",
-      "ဖီပရိုနီး SC 5% – ဖီနီလ်ပိုင်ရာဇိုး"
+      { "en": "Spinetoram", "mm": "စပိုင်နီတိုရမ်" },
+      { "en": "Fipronil", "mm": "ဖီပရိုနီး" }
     ]
   }
 ]
