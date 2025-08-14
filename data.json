@@ -1,26 +1,15 @@
 {
-  "လှေး": [
-    "Thiamethoxam – သိုင်ယာမီသောင်ဇမ်",
-    "Imidacloprid – အိုင်မီဒါကလိုပရစ်",
-    "Acetamiprid – အာစီတာမီပရစ်",
-    "Dinotefuran – ဒိုင်နိုတီဖျူရန်",
-    "Clothianidin – ခလိုသီအာနီဒင်",
-    "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်"
+  "keyword": "လှေး",
+  "aliases": ["လှေးပိုး", "Thrips", "thrips"],
+  "result": [
+    { "en": "Thiamethoxam", "mm": "သိုင်ယာမီသောင်ဇမ်" },
+    { "en": "Imidacloprid", "mm": "အိုင်မီဒါကလိုပရစ်" },
+    { "en": "Acetamiprid", "mm": "အာစီတာမီပရစ်" },
+    { "en": "Dinotefuran", "mm": "ဒိုင်နိုတီဖျူရန်" },
+    { "en": "Clothianidin", "mm": "ခလိုသီအာနီဒင်" },
+    { "en": "Lambda-Cyhalothrin", "mm": "လမ်ဒါ-ဆိုင်ဟာလိုသရင်" }
   ],
-  "လှေးပိုး": [
-    "Thiamethoxam – သိုင်ယာမီသောင်ဇမ်",
-    "Imidacloprid – အိုင်မီဒါကလိုပရစ်",
-    "Acetamiprid – အာစီတာမီပရစ်",
-    "Dinotefuran – ဒိုင်နိုတီဖျူရန်",
-    "Clothianidin – ခလိုသီအာနီဒင်",
-    "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်"
-  ],
-  "leafhopper": [
-    "Thiamethoxam – သိုင်ယာမီသောင်ဇမ်",
-    "Imidacloprid – အိုင်မီဒါကလိုပရစ်",
-    "Acetamiprid – အာစီတာမီပရစ်",
-    "Dinotefuran – ဒိုင်နိုတီဖျူရန်",
-    "Clothianidin – ခလိုသီအာနီဒင်",
-    "Lambda-Cyhalothrin – လမ်ဒါ-ဆိုင်ဟာလိုသရင်"
+  "combos": [
+    { "en": ["Imidacloprid", "Acetamiprid"], "mm": ["အိုင်မီဒါကလိုပရစ်", "အာစီတာမီပရစ်"] }
   ]
 }
